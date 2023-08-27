@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>Sitemap</h1>
+<ul>
+{{ range .Site.Pages }}
+    <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+{{ end }}
+</ul>
+{{ end }}

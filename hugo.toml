@@ -1,0 +1,37 @@
+baseURL = 'bettermatt-hub.github.io'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+theme = "nightfall"
+[params]
+author = "BetterMatt"
+user = "matthew.jared.law"
+hostname = "gmail.com"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/bettermatt-hub"
+
+#Add link to your icon font to `layouts/partials/custom-head.html`
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = "https://twitter.com/_bettermatt"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://www.linkedin.com/in/matthew-law-548579205/"
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:matthew.jared.law@gmail.com"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
