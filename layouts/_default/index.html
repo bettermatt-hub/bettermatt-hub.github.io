@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+  <h1>Latest Blog Posts</h1>
+
+  <ul>
+    {{ range .Data.Pages }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <p>{{ .Summary }}</p>
+      </li>
+    {{ end }}
+  </ul>
+
+{{ end }}
