@@ -30,3 +30,4 @@ I gave it execute permission and then when the tar command in the cron job ran, 
  See this [page](https://gtfobins.github.io/) for more info on that exploit.
  
  This just goes to show that having properly configured permissions, locking down unused ports, and minimizing attack surface is important system wide, especially in automated processes. 
+
