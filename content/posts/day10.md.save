@@ -1,0 +1,58 @@
+---
+title: "Day10"
+date: 2023-09-09T23:58:09-06:00
+draft: false
+---
+Today I went through and finished the Linux privelege escalation module! The next 4 exploits are concerning SUID/SGID executables. 
+
+Following the instructions, I began by running the `/usr/local/bin/suid-so` executable and saw it gave me a progress bar:
+
+![day10.1.png](/photos/day10/day10.1.png)
+
+I then ran strace on the file in order to run the program while logging the system calls it makes, searching for errors with grep.
+
+![day10.2.png](/photos/day10/day10.2.png)
+
+
+
+![day10.3.png](/photos/day10/day10.3.png)
+Task 13:
+![day10.4.png](/photos/day10/day10.4.png)
+Task 14:
+![day10.5.png](/photos/day10/day10.5.png)
+Task 15:
+Going smoothly:
+![day10.6.png](/photos/day10/day10.6.png)
+
+Check for it:
+![day10.7.png](/photos/day10/day10.7.png)
+
+Oh no:
+![day10.8.png](/photos/day10/day10.8.png)
+
+Copy and paste and it works!
+![day10.9.png](/photos/day10/day10.9.png)
+
+Task 16:
+![day10.10.png](/photos/day10/day10.10.png)
+
+![day10.11.png](/photos/day10/day10.11.png)
+![day10.12.png](/photos/day10/day10.12.png)
+
+Task 17:
+![day10.13.png](/photos/day10/day10.13.png)
+![day10.14.png](/photos/day10/day10.14.png)
+![day10.15.png](/photos/day10/day10.15.png)
+Task 18:
+![day10.16.png](/photos/day10/day10.16.png)
+![day10.17.png](/photos/day10/day10.17.png)
+![day10.18.png](/photos/day10/day10.18.png)
+
+Task 19:
+![day10.19.png](/photos/day10/day10.19.png)
+![day10.20.png](/photos/day10/day10.20.png)
+![day10.21.png](/photos/day10/day10.21.png)
+Task 20:
+![day10.22.png](/photos/day10/day10.22.png)
+![day10.23.png](/photos/day10/day10.23.png)
+![day10.24.png](/photos/day10/day10.24.png)
